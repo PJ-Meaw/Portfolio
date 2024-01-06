@@ -6,7 +6,7 @@ import Link from "next/link";
 import Resume from "./buttons/Resume";
 export default function Section4({setStatusNav} : Readonly<any>) {
   const { ref, inView } = useInView({
-    threshold:1
+    threshold:0.8
   });
   useEffect(()=>{
     inView && setStatusNav("CONTACT");
