@@ -14,7 +14,7 @@ export default function Section3({setStatusNav} : Readonly<any>) {
       scroll-mt-[70px] md:scroll-mt-[100px] xl:scroll-mt-[120px]
       "
       threshold={[
-        0.25,
+        0.275,
         0.4,
         0.6,
         ]}
