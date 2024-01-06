@@ -1,0 +1,1 @@
+export type TypestatusNav = "HOME" | "ABOUT" | "PROJECT" | "CONTACT";
