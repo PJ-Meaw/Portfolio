@@ -6,20 +6,6 @@ import { useInView, InView } from 'react-intersection-observer';
 import Github from "./buttons/Github";
 import Demo from "./buttons/Demo";
 export default function Section3({setStatusNav} : Readonly<any>) {
-  const { ref, inView } = useInView({
-    "threshold": [
-      0,
-      0.2,
-      0.4,
-      0.6,
-      0.8,
-      1
-    ]
-  });
-  // useEffect(()=>{
-  //   inView && setStatusNav("PROJECT");
-  //   console.log("Inview PROJECT is " , inView)
-  // },[inView])
   
   return (
     <InView as="div" id="project" className="py-[58px] flex flex-col items-center gap-[54px]
@@ -28,7 +14,7 @@ export default function Section3({setStatusNav} : Readonly<any>) {
       scroll-mt-[70px] md:scroll-mt-[100px] xl:scroll-mt-[120px]
       "
       threshold={[
-        0.4,
+        0.3,
         0.6,
         0.8,
         1]}

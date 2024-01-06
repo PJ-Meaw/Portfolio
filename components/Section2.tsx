@@ -36,7 +36,7 @@ export default function Section2({setStatusNav} : Readonly<any>) {
           xl:w-[600px] xl:gap-[30px]
           ">
           <p className="medium20 md:medium24 xl:medium30">Get to know me</p>
-          <p className="regular14 md:regular16 xl:regular18">My name is Pathinya Jongsupangpan. currently, I am senior computer engineering student at KMUTT and will graduate in mid-2024. I also interned at FutureSkill in Front-end Web Developer 2022 and CODEDIVA in Full-stack Developer 2023.
+          <p className="regular14 md:regular16 xl:regular18">My name is Pathinya Jongsupangpan. Currently, I am senior computer engineering student at KMUTT and will graduate in mid-2024. I also interned at FutureSkill in Front-end Web Developer 2022 and CODEDIVA in Full-stack Developer 2023.
             <br/><br/>I always excited when got new work or try out new technology. So I created hitherto several Web Application. Now, I collect all project Web Application right here. Let’s check it out !
             <br/><br/>You can see more detail about my experience in Resume
           </p>
