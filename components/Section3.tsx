@@ -13,11 +13,9 @@ export default function Section3({setStatusNav} : Readonly<any>) {
       xl:gap-[90] xl:py-[96px] xl:px-[30px]
       scroll-mt-[70px] md:scroll-mt-[100px] xl:scroll-mt-[120px]
       "
-      threshold={[
-        0.33,
-        0.4,
-        0.6,
-        ]}
+      threshold={
+        0.2
+        }
       onChange={(inView, entry) => {
         inView && setStatusNav("PROJECT");
         console.log("Inview PROJECT is " , inView)

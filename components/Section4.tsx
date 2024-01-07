@@ -5,15 +5,15 @@ import { useInView } from 'react-intersection-observer';
 import Link from "next/link";
 import Resume from "./buttons/Resume";
 export default function Section4({setStatusNav} : Readonly<any>) {
-  const { ref, inView } = useInView({
-    threshold:0.8
-  });
-  useEffect(()=>{
-    inView && setStatusNav("CONTACT");
-  },[inView])
+  // const { ref, inView } = useInView({
+  //   threshold:0.8
+  // });
+  // useEffect(()=>{
+  //   inView && setStatusNav("CONTACT");
+  // },[inView])
   
   return (
-    <section ref={ref} id="contact" className="pt-[41px] pb-[25px] px-[35px] bg-primary-200 text-white flex flex-col items-center
+    <section  id="contact" className="pt-[41px] pb-[25px] px-[35px] bg-primary-200 text-white flex flex-col items-center
       md:pt-[42px] md:pb-[30px] md:px-[62px]
       xl:px-[116px] 
       ">

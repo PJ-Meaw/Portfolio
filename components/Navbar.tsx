@@ -9,10 +9,10 @@ type IstatusNav = {
 }
 export default function Navbar({statusNav} : Readonly<IstatusNav>) {
   return (
-    <motion.nav className={`fixed top-[16px] left-1/2 w-[364px] h-[56px] bg-white bg-opacity-80 shadow-thin rounded-full backdrop-blur
+    <motion.nav className={`fixed top-[16px] left-1/2 w-[320px] h-[56px] bg-white bg-opacity-80 shadow-thin rounded-full backdrop-blur
       flex flex-row justify-center items-center gap-[34px]
-      md:h-[76px] md:w-[600px] md:top-[34px] md:gap-[54px]
-      xl:w-[846px] 
+      md:h-[76px] md:w-[500px] md:top-[34px] md:gap-[54px]
+      xl:w-[650px] 
       `}
       initial={{y:-100, x:"-50%", opacity:0}}
       animate={{y:0, x:"-50%", opacity:1}}
